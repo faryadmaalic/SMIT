@@ -9,18 +9,29 @@
 .container{
 border: 2px solid grey;
 padding: 5px;
+height: 900px;
 display: flex;
-/* justify-content: center; */
+justify-content: center;
 /* justify-content: flex-end; */
 /* justify-content: left; */
 /* justify-content: space-around; */
 /* justify-content: space-between; */
 /* justify-content: space-evenly; */
+/* flex-flow: column; */
+/* flex-flow: row; */
+flex-wrap: wrap;
+flex-flow: row-reverse;
+flex-flow: column-reverse;
+flex-direction: row;
+/* align-items:flex-start; */
+
+
 }
 .box{
  background-color: hotpink;
  
     margin: 4px;
+    flex-flow: row-reverse;
 }
 .box1{
 width: 250px;
@@ -47,9 +58,9 @@ font-family: calibri;
 </head>
 <body>
     <div class="container">
-        <div class="box box1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
-        <div class="box box2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
-        <div class="box box3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
+        <div class="box box1"> <h2>NO 1</h2> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
+        <div class="box box2"> <h2>NO 2</h2> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
+        <div class="box box3"> <h2>NO 3</h2> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, et cum consequatur corrupti ipsam harum odio alias, fugit optio facere quibusdam iste fugiat laboriosam at.</div>
     </div>
 </body>
 </html>
