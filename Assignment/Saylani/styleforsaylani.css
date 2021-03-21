@@ -15,13 +15,7 @@
   .head {
     background-color: rgb(38, 95, 170);
   }
-  .box1 {
-    width: 150px;
-
-    display: inline-block;
-    margin: 2px 30px;
-  }
-
+ 
   .box2 {
     text-align: center;
     width: 700px;
@@ -60,17 +54,8 @@
     height: 65px;
   }
 
-  .logo {
-    display: inline-block;
-    width: 120px;
-    height: 56px;
-    margin-top: 2px;
-    margin-left: 40px;
-  }
 
-  .logo:hover {
-    cursor: pointer;
-  }
+
 
   .menu {
     display: inline-block;
