@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        footer{
+            height: 4555px;
+        }
+        body{
+            background-color: #000000;
+        }
+      .box {
+        border: solid 2px black;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        margin: 4px 9px;
+        text-align: center;
+      }
+      #box1 {
+        background-color: rgb(125, 226, 43);
+      }
+      #box2 {
+        background-color: blueviolet;
+        /*relative to its Current Position */
+        /* position: relative;
+        top: 16px;
+        left: 120px; */
+      }
+      #box3 {
+        background-color: rgb(182, 12, 12);
+         /* relative to its parent */
+        /* position: absolute;
+        top: 16px;
+        right: 120px; */
+      }
+      #box4 {
+        background-color: rgb(148, 21, 74);
+        
+        position: fixed;
+        top: 20px ;
+        left: 45px;
+        /* position: sticky;
+        top: 20px ;
+        left: 450px;  */
+      }
+      #box5 {
+        background-color: rgb(255, 255, 255);
+  
+
+      }
+    </style>
+  </head>
+  <body>
+      <footer>
+    <div class="box" id="box1">A</div>
+    <div class="box" id="box2">B</div>
+    <div class="box" id="box3">C</div>
+    <div class="box" id="box4">D</div>
+    <div class="box" id="box5">E</div>
+</footer>
+  </body>
+</html>

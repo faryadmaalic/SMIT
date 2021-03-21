@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basic</title>
+    <link rel="stylesheet" href="style-2.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      header {
+        border: 2px solid rgb(63, 12, 12);
+        width: 65%;
+        margin: auto;
+        /* display: block; */
+      }
+      img {
+        display: block;
+        width: 350px;
+        margin: auto;
+      }
+      h3 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        color: red;
+        text-align: center;
+      }
+
+      .box {
+        border: 2px black solid;
+        margin: 5px 0px;
+        padding: 12px;
+        display: inline-block;
+        width: 30%;
+        /* margin: auto; */
+      }
+      .container {
+        border: black 2px solid;
+        width: 90%;
+        margin: auto;
+      }
+
+
+      #para1::first-letter{
+        background-color: burlywood;
+      }
+      a{
+        background-color: rgb(124, 70, 0);
+      }
+      a:hover{
+        background-color: rgb(12, 8, 3);
+        color: white;
+      }
+     a:focus{
+        background-color: rgb(55, 197, 55);
+      }
+      a:active{
+        background-color: rgb(39, 28, 97);
+      }
+    </style>
+  </head>
+  <body>
+
+<a href="#">google</a>
+
+    <header>
+      <img src="../Code/images/122.jpg" alt="">
+      <h3>Wellcome to my blog</h3>
+    </header>
+
+    <div class="container">
+      <div class="box">
+        <h2>Heading</h2>
+        <p id="para1">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+          ratione sit in explicabo cupiditate deserunt qui quasi saepe, vitae
+          nulla corporis tenetur rem ipsum odio deleniti!
+        </p>
+      </div>
+      <div class="box">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+          ratione sit in explicabo cupiditate deserunt qui quasi saepe, vitae
+          nulla corporis tenetur rem ipsum odio deleniti!
+        </p>
+      </div>
+      <div class="box">
+        <h2>Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+          ratione sit in explicabo cupiditate deserunt qui quasi saepe, vitae
+          nulla corporis tenetur rem ipsum odio deleniti!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

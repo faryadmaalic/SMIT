@@ -1,0 +1,24 @@
+
+body{
+background-color: rgb(46, 66, 11);
+}
+ div{
+   
+    max-width: 700px;
+    min-width: 300px;
+    background-color: gold;
+max-height: 400px;
+min-height: 300px;
+/* overflow:scroll ; */
+border: 2px solid rgb(75, 11, 11);
+border-width: 1px 4px 12px 4px;
+/* border-top:solid red 113px */
+}
+li{
+    list-style-type: disc;
+    /* list-style-image: url('./images/loading.gif'); */
+    list-style-position: inside;
+}
+/* li{
+    list-style-type: upper-roman;
+} */

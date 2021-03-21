@@ -1,0 +1,23 @@
+body{
+    background-color:aquamarine;
+}
+.corner{
+    width: 250px;
+}
+ /* Font  */
+ .section1{
+     /* background-color: rgb(227, 204, 250); */
+     /* color: bisque; */
+     /* font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+     text-transform: capitalize;
+     word-spacing: 5px;
+     letter-spacing: 10px; */
+     border: rgb(37, 23, 6) solid 2px;
+     border-radius: 45px;
+     border-radius: 0%;
+     margin: 5px;
+     padding: 10px;
+     text-decoration: underline;
+box-sizing: border-box;
+ }
