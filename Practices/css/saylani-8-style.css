@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}.border-two{
+    border: 2px solid red;
+ width: 25px;
+    /* margin: 2px 4px; */
+}
+#newa{
+width: 25px;   
+}
